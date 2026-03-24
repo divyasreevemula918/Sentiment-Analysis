@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 word_index = imdb.get_word_index()
 reverse_word_index = {value: key for key, value in word_index.items()}
-model = load_model("RNN/simple_rnn_imdb.keras")
+model = load_model("RNN/simple_rnn_imdb.h5")
 
 
 def preprocess_text(review):
