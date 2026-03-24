@@ -11,7 +11,7 @@ It includes a **live web application** where users can input text and get predic
 ## 🌐 Live Demo (Deployment)
 
 👉 Try the app here:
-🔗 **http://localhost:8501**
+🔗 **https://sentiment-analysis-mne9iwheaydcappcntjmle7.streamlit.app/**
 
 ---
 
@@ -81,7 +81,10 @@ streamlit run RNN/main.py
 
 ## 🖥️ Screenshots
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/416c4eb0-1f73-47fa-b9fc-37c8549d5fdd" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/320f2d70-d326-4126-a8ce-69313c0ec6cf" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/976fb2b8-e2df-4e40-96b6-f2a2a9c08192" />
+
+
 
 
 ---
