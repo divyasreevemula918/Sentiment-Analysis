@@ -1,2 +1,6 @@
+streamlit
 tensorflow-cpu==2.15.0
-scikit-learn
+keras==2.15.0
+h5py==3.10.0
+numpy==1.26.4
+scikit-learn==1.4.2

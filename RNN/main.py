@@ -1,16 +1,17 @@
 import streamlit as st
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.models import load_model
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-import os
+
 
 # -------------------------------
 # Load Model (SAFE WAY)
 # -------------------------------
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "simple_rnn_imdb.keras")
+import os
+from tensorflow.keras.models import load_model
 
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "simple_rnn_imdb.h5")
 model = load_model(MODEL_PATH, compile=False)
 
 # -------------------------------
