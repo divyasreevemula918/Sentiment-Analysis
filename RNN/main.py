@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 st.set_page_config(page_title="IMDB Sentiment Analysis", page_icon="🎬")
 
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "simple_rnn_imdb.keras")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "simple_rnn_imdb.h5")
 model = load_model(MODEL_PATH, compile=False)
 word_index = imdb.get_word_index()
 MAXLEN = 500
