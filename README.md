@@ -11,7 +11,7 @@ It includes a **live web application** where users can input text and get predic
 ## 🌐 Live Demo (Deployment)
 
 👉 Try the app here:
-🔗 **https://sentiment-analysis-mne9iwheaydcappcntjmle7.streamlit.app/**
+🔗 **https://sentiment-analysis-ivwbewn7eg56cpnlspeeem.streamlit.app/**
 
 ---
 
