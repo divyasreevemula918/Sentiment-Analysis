@@ -2,29 +2,16 @@ import os
 import re
 import streamlit as st
 import numpy as np
-import tensorflow as tf
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 st.set_page_config(page_title="IMDB Sentiment Analysis", page_icon="🎬")
 
-# -------------------------------
-# Load model
-# -------------------------------
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "simple_rnn_imdb.keras")
 model = load_model(MODEL_PATH, compile=False)
-
-# -------------------------------
-# Load IMDB word index
-# -------------------------------
 word_index = imdb.get_word_index()
-
 MAXLEN = 500
-
-# -------------------------------
-# Preprocess input text
-# -------------------------------
 def preprocess_text(review: str):
     review = review.lower()
     review = re.sub(r"[^a-zA-Z\s]", "", review)
